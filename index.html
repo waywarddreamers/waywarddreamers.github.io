@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="https://waywarddreamers.site/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayward Dreamers Collective — Vancouver, WA</title>
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAQBElEQVR42u1aWXBU15k+2116Vbe61dpaEtpaC0IgxCIWmQEDAWwwGTskYxLHk7gyKVc8NclUzT7zMvM8ldRUqlJJpsbllMeOnTixsWOzGWR2EFhoQxLaWi2pF/W+3Hv7LufMgzAGgTBbXJMqnSfp4dz7f+f7vv/8/38bbl/9EvhTXgj8ia8lAEsAlgAsAVgCsATgkfYjCCFECP5JAoAQKrKqaXouK0MIIYQAAITQrX8gBDFGCCEAAMJoHur8v49lkUc5e1nOr1zdsHxV3Vw4fuT9cwRjjifZjEQ4zHEkm5EEkdc1PZ/XMEYWqymbliCEFqsoSYoo8hBCABhjjwQA15SuftBThxBACDTNcBc5fvivLxz6TZe3srhtXaPFYhoenPjLl/cXl7rGRwLf/9uvJ+MZT0nh7v2dRSVO/3hw+56OiuqSof6JTVvbIsGYpmqMAYzRlychCKGm6bpOAYSMMUywvcDavKLmWt94Y0vNX//jwc1bV69sb5ClfOeT7W6PY82G5a/8w8En93S0rW0qLXcffOmpTCr3lb2bXnrlz9W8VuotKnTZdV0H8MbDEUboAfE8AAMIQUlStu5cyyiNRZImsxiejUk5pcbnFUQBIdR1pLu2oQJjDCH0VpVMTQSlnHLuZM/v3/wYIbhmY0teVgd6x3xNVaqqByZD3//RgYGrY9G5JM8ThJAiq7msrKk6IWTeRY/ZAxBCLa+VlrspY9eHpkwMmK0mQeDMFpPZLL7+y/fj0dSyuvJELG2zWyLBmKpqAEAAACYolch8cqy7vLLY7XH+7s2Pt+/p+NG/fTsWScbmkmazoOtGLis3rajxNVVlM3JP91BeUe8Tw4MxoCj5sgqPySQM9I4BAErK3D/8lxeG+ifefu1wLqeIJiEWTVKDZlI5whGeJxxPOJ5ggg3dYIxFI0n/+CxCcGTQP9w/YRiGySQGZ6IcR37wd8/X+ipsduvf/PO3ZgNzvZeHTRaRUfbYGKAGxRjxAl/rq3C5C04cvlTj8w5eHfunV34S8IcwxhxPKKWCwAMAIIKqofGIY4DdZA8AIJh4EQDKGEFobCQwMuQ3iUIuK7/48v7Bq6Nv/M+HJWWu3svD/T2jVptZVVSE0RfycF+OYYzZCiypZLbQZdd1QzQLz31zRyqRRQjOBuZEUeA4Mn9ajDGd6jbe1lhYnzcWyoBRRikDDDDGRJNgtZoJhzHBiXiacGT7Ux1t65sgggwwWco7XXaOI194Y3yxhBBCsqTseGrjiy/vnw1EmltrLp7pf++tE5IkE45gjG7N5BBC1dCqHRUtnuax5ARlDN7zXBhjhJCJ0ZlCt319ZytgYPczmx1OW8cTK7/1vb3Fpa7Dh87a7JZ7XBb34QEIFFmdiyQ2PLHSYjVdv+Y/cfgiJhhjfOdzIYQAwBWe5XNSVKdGSklxmAMAQAAXzw0AQjA8MDk8MGkrsJRXFmOMOZ4TRaGkzFVdV37lwiDG+CE9gBCUcsqzB3doqvb2r46EZ6OxuRQmCKHbDx5ACOG8fkQsmDnxWnTYayv1pwLQQACw+dsPQbQIFcBZaDcMeuTQWUKwzW7xlBQGMUqnclOTQfZIHoCQUgYBWLOhpWVVXTKRIRxGCC6IXme6rMsGMDDEpdYSSZVnMyEAQLmtpMxW7DYVOoQCC2dhYFFFGQYFgBWXurqOdtsd1lg0hTDKZeXfv/mxIPD3kBC5t/oVOd/cWltW6UnE00cOnTV0g+O5BaI3qFGACxo8PjtvIQQTTK7HxyEEQ7HRIovLztuKrZ4ik/t04HwynuIJzxiDECAEF0TFGNANQxD5t187/O8/fqX3ysjYSIAXOE3VMIcXS6mLegAhqOsUQbjvwFZdM177+XuKnCeE3HkYmqE31dVualmTwLGzk5euBvtTappAohoqpcxrKy80Oz8aOxbKhpwFdo7DgsBBAFVVh/AuZSnGWM1rck7RdV0Uhc7tqwOT4Uwqhwl+AAlBCNW8xhhrbfe1tvum/aFUPEPIXVxLKV3V1gAcxsm5rqAU3rm+s722VdU1jWp23tZZsSGr5X47+J7CZJfTwQDL51VFyYtmvtTr4nkun1cX2JtSajKLXce6W1c3DA9MjAz6939jm6ekkFJ2VyHdhQEIYV5Ra3wVazYub2heBgB4/ZfviyZhwX6IYF5Wl6+s5UUuFcsmIlkmGrwk1jdW9Y8OW4iFAVZq9Xw8earAbM0rGgOgsqqkaUVtVU1ZJBQPz8R8LVVujzMSTNx5ugih6anwmo7lJWWu9g3Ldz2zeUVbfTYrT40HeZ7cGsjdAUAIeJ7btmtdgcPadbR7ZNBvtpgWAgDQoKyyupRRYBiUcNjusCwTlsVgFOe4OkddMBvy2N0ZNZvKZp7Y3r7vwFazRcxlZafLvuOpjsIix/EPLrS01ZnMwuz0HMdzt1mTI7OByLMHd44M+l/72XvXh6dOfHRx2h+GGAF2TwbmeyhZUlavbyp0F6zb3GoyCRfO9N3ZNCIENVUvKnY6XbZ4NKUo+UxCqnEssxVYRsbGr0VHGlz1EMB4MrH5qVV/tn3tz/7zrTMnesaGA32fXj9/qnf1usa2dY2H3u7q3N4Wn0tLWQXi216BMArNRmt83o7OlaeOX0EIKrIK7y2h+XKfUmYyCzW+CrNFPPaH8+lk1jBoOBTnOLIgaSAEcxm5ur48r2gcj+0W257NW/sGRi77exFAcSVZbVnm9hZ4VxT95D/+N5eVBZG3FVioQXmeO3Oy57lv7gyHYlJG+e7O589192hIQ7d4khAy7Q+tWO3rvTJMKcMEZ9LSnaXR5wAghLKkrFjt43lOVbX939jGC/xAz+jRD84psnrXvgkjlMlJsqzwHAcQcFgK0jPSkf4TgEKMkAGMsfBkU3v1YN/YtD9cXVf+wl/trW+srFhWMnF9WtcMjHFtkzfbZ7S01l0a6M2pEkYLzaCp+osvf9XhtIVDsUgwRjjyBVnIMIydezfOBiIfvXtaVbXgTNRsMS2WqfK6Wu2uZHEyODg2Oxm9eLn31xfeVVUDQUgZwxAzTJlAo+Gk1W559uD2T452//d//U5VtR1Pb9A1IxAIVRVVFPLOnpl+i0Wkt2d6xhjPcxOj0xdP9xa6Cmx2C6XsTgbQrRvMFtP4yPS1vvEf/P3zY8OB13/xfjqZXVCu3fYOwDjErSxbbhdsqUwGQWTiRIwQ++yBEECrxSzLak29d3J09vypPkHkz3f1Wm1mnueSqbQtX3A9OV5W4xawcLfKCiCIfvXzQ06X3eG0GYZxr3sAIZRKZlrbfZ6Swp7uoQPf3qWqmqEb9yjIIYAQwP65a5uXdZiJKZvN5XIypXS+LoIQGgaNhGKFLnteyau6qjO9bYPv69/9ypVL11Kp7IZNq2Zmw2kx6bWXZdLSnSqFEClK/i++s4cQvO9rW71VxWp+YYl+wwMQQl3Tq+vKNVUzDLay3ecotAenI5FwnBCymIR0qlc5KoKZcDKb2r9xl+TILqsqi0fTmqbxAmcYlBrUards3bXuyKGzz+x+0kiA+GR2pM8/dm16RUfti1979o3XP9j/vS3+ruj1qcm0nuYQB+Dnpet8Umlurf3gnU/Onvw0EU/fydINABjjdDp34IVdB17YlU5mZ6fnvBWerqOXDd2Ai0zdIISUUY/ZoxhK7aZSl8Vhp3ZWaOzZuzk4MydJMoKIEDI9Ga6sLjFbhNyA8eJ3vup2OJsr6zd1tu3a+cRbPz1Gi/OCyPecHHHY7Bk1p1NdMzQDUHyzbmUgFk1yHBkenCQE3zsLgVQ8Y7GaDv2ma1ldWV5R/eNBKacsVovPM9Bc1LB+T3PX8e7LfQM+a/0nJ7svDwzs2rtpaiLEAFXyKkV0aiy0bffavsDwpaPXSl2eAAsc7z7zxqsfFtSYd+zr+MWP31FB3iZYS83FHovbIdoJwpIuwxsDAZzLSslE1mw13dWK8OZXSgihqmpqXhNNgqZq81fjXeufzzu1nHJg99PjyYlEIt3SVucucBbpxUd+e76pvaq00X3lyFDWyBkq6wn1cRzZd2DL9GxYGtWLcFEYhQqqTavaGg+93RWYDCMO5lRJJEKVvdLnqvWYi2ZSwXPBiwaj8LN+erEwbrvICMGCiUcQ8DyHELqz4oUAIggZAJRRnekMMF9z5fVxf02998N3Tl+81F/VWhyMzI1N+6taSi5d7d1R/aQky6PpMQxw7+URkRfKm91bt60zlXIzgchH759JzGUIj228dW1pe2flRitnCWbD/XPXJtJ+ner3M1chC5tUgy0GF0KoGZpBDQ5zZs5sxdYabwU1qMNpGxnwr1rXMO2PxJOpQHpayikziZCvpG4gOXh4/ISJFyEEZrOpf+A6DePE5RPHx7sK+AJvYWmEm2OUNbsbJpOB3khfRs0BADBECKLF2reHHKswwFRdK7OVeAvKTMhEEMlrKkEwGJtTlLy72BmaiW7ZucY/Njs1Gtr+zPpV9tZToPtS8FMB8ze6TaY7bY7qosqjEydrPdVbKjdqhn46cC6mJDDEqXwqp8kiEW68DNzvyPe+ADDGOMx1ejfyhEvnMzPZ2bicyKmSHtK37VzX2zPy9HOd0UjirVcPU0Y7t7ft3rLl3TeP4WJDS1OEEWMMQZRTc09UbYpKca+tfEvlhlNT57Nadk1Z27vDf7AJVqfoyKq5Bwr9fgFAAAxARSy4TM5YPh6TY1EplsqnGWA0DzIpad2mlnd/3bVjX0f7huZcRjbzpvde/cTazIXGM6qmzne0OtXtor3YWkQkXGotPjz+cUJJzpcbtc7qhJzkEf+goT/AaBFBlDfUyfSUqucLTYVNLl9jUb2AhJSenhydKfN66lq8LIRVRR8JTPgngu0rm6cCwZHhSVEU5o9f0ZUnKjbVOKrGkxMXZi5LmiJgnlJD0ZX2sra0kqGARaQoweSPAuCmg5NKKpgLT6Wnc2qu0u7lMJ/QkuOjM3ZsW+9bXehwLK+ul0jOPxQCSRzTYgSRW7arQ7GRodh1jDBBeF6WUTnuMbsa3fWBzExcTtxZjT7W4S6EGGEIIKU0LifHkhOVdm9UjiEMl1uWXxzo/eDccRYmlpR9MjHtdZdGstGb2QxDnMgnM2pOmLfpZ4kBIxzOza0qblU0ZSLp5/54DCxgAyNs4kzl9rLR+Hijq95j81wKXxZFMSDN8DzX5PIVmd2pfDouJ26SQCDBEC8QOgJIY9pk0h+T4xrV7jHAe8wf+RhglFLGmJkzrS1ffSZwHjIIGBAQPxIbOzd7yTCMJleDwejN6oUBdqdNGWAEkqSSisuJ+0z8j4GBG0MJhEzEVG4vC2ZD44kJkRPnBcNhoujKZGrKwTuicux+cguG+OGif3gGIACaoZXbSznEXQ33m3kzZfTGYIcxDnGaoV8Idt8/nw+XQx/pMytjzKB0KDYyn1IWBAQh5CD30GF9GQAwwl1TpxFABJK7BvolRP9IAOa1+6UFuvRjjyUASwCWACwBWAKwBOD/4/o/ZTU0sYUwPGgAAAAASUVORK5CYII=">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: #f2e9ff;
+  background: linear-gradient(
+    180deg,
+    #07010f 0%,
+    #100019 30%,
+    #1e0733 60%,
+    #2b0a3d 80%,
+    #4a1a6e 110%
+  );
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ─── STARFIELD ──────────────────────────────── */
+
+.stars {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: twinkle var(--dur, 3s) infinite var(--delay, 0s);
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%       { opacity: 1;    transform: scale(1.8); }
+}
+
+/* ─── SHOOTING STARS ─────────────────────────── */
+
+.shooting-star {
+  position: fixed;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(200,180,255,0.95), rgba(255,255,255,0));
+  transform: rotate(-22deg);
+  z-index: 1;
+  pointer-events: none;
+  animation: shoot var(--dur, 10s) infinite var(--delay, 0s) ease-in-out;
+  opacity: 0;
+}
+
+@keyframes shoot {
+  0%   { transform: translateX(0)     translateY(0)    rotate(-22deg); opacity: 0; }
+  8%   { opacity: 1; }
+  38%  { transform: translateX(120vw) translateY(38vh) rotate(-22deg); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* ─── NEBULA ─────────────────────────────────── */
+
+.nebula {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  animation: nebulaPulse 12s ease-in-out infinite alternate;
+}
+
+.nebula-1 {
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(100,50,180,0.18) 0%, transparent 70%);
+  top: -100px; right: -100px;
+}
+
+.nebula-2 {
+  width: 600px; height: 400px;
+  background: radial-gradient(circle, rgba(60,20,130,0.15) 0%, transparent 70%);
+  bottom: 100px; left: -150px;
+  animation-delay: -6s;
+}
+
+.nebula-3 {
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(140,80,220,0.12) 0%, transparent 70%);
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: -3s;
+}
+
+@keyframes nebulaPulse {
+  0%   { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 1;   transform: scale(1.15); }
+}
+
+/* ─── LAYOUT ─────────────────────────────────── */
+
+.site {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── NAVBAR ─────────────────────────────────── */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 20px;
+  background: rgba(6, 0, 14, 0.88);
+  border-bottom: 1px solid rgba(160, 120, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(160,120,255,0.4), transparent);
+}
+
+.brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  margin-right: 12px;
+  white-space: nowrap;
+  color: #e8d8ff;
+  text-shadow:
+    0 0 8px  rgba(180,140,255,0.8),
+    0 0 18px rgba(140,110,255,0.5),
+    0 0 30px rgba(120,90,255,0.3);
+}
+
+.navbar button {
+  background: transparent;
+  color: #d9c7ff;
+  border: 1px solid rgba(143,115,255,0.45);
+  border-radius: 999px;
+  padding: 7px 18px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(143,115,255,0.2) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+}
+
+.navbar button:hover::before,
+.navbar button.active::before {
+  opacity: 1;
+}
+
+.navbar button:hover,
+.navbar button.active {
+  background: rgba(143,115,255,0.2);
+  border-color: rgba(143,115,255,0.9);
+  color: #f2e9ff;
+  box-shadow: 0 0 14px rgba(143,115,255,0.3);
+}
+
+/* ─── CONTENT ────────────────────────────────── */
+
+.content {
+  flex: 1;
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 52px 28px;
+}
+
+.page {
+  display: none;
+  animation: fadeIn 0.45s ease;
+}
+
+.page.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── PAGE HEADINGS ──────────────────────────── */
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+.page-header h2 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+  color: #e8d8ff;
+  text-shadow:
+    0 0 12px rgba(180,140,255,0.5),
+    0 0 28px rgba(140,110,255,0.3);
+}
+
+.page-header .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(200,180,255,0.5);
+  margin-bottom: 18px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(160,120,255,0.5), transparent);
+}
+
+.divider-gem {
+  color: rgba(200,160,255,0.6);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+}
+
+/* ─── ABOUT PAGE ─────────────────────────────── */
+
+#about .intro-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(160,120,255,0.2);
+  border-radius: 20px;
+  padding: 32px 36px;
+  margin-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+#about .intro-card::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 180px; height: 180px;
+  background: radial-gradient(circle, rgba(143,115,255,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+#about .intro-card p {
+  font-size: 1.35rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: #e8d8ff;
+  margin: 0 0 16px;
+}
+
+#about .intro-card p:last-child {
+  margin-bottom: 0;
+  font-style: italic;
+  color: rgba(220,200,255,0.75);
+  font-size: 1.2rem;
+}
+
+.tagline-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.tag-pill {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200,170,255,0.7);
+  border: 1px solid rgba(160,120,255,0.25);
+  border-radius: 999px;
+  padding: 5px 14px;
+  background: rgba(143,115,255,0.06);
+}
+
+.founder-card {
+  margin-top: 28px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.founder-card p {
+  font-size: 1.15rem !important;
+  margin-bottom: 0 !important;
+  font-style: normal !important;
+  color: #e8d8ff !important;
+}
+
+.founder-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e8d8ff;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
+  text-shadow: 0 0 14px rgba(180,140,255,0.35);
+}
+
+.founder-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(180,150,255,0.6);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.founder-photo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 4px 22px 12px 0;
+  border: 2px solid rgba(180,140,255,0.5);
+  box-shadow:
+    0 0 0 4px rgba(143,115,255,0.12),
+    0 0 18px rgba(180,140,255,0.45),
+    0 0 36px rgba(140,110,255,0.2);
+}
+
+.founder-quote-block {
+  clear: both;
+  position: relative;
+  margin-top: 28px;
+  padding: 24px 28px 24px 28px;
+  border-top: 1px solid rgba(160,120,255,0.2);
+  overflow: hidden;
+}
+
+.founder-quote-mark {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5rem;
+  line-height: 0.7;
+  color: rgba(180,140,255,0.25);
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.founder-quote {
+  margin: 0;
+  padding-right: 120px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(220,200,255,0.85);
+  text-shadow: 0 0 20px rgba(180,140,255,0.15);
+  letter-spacing: 0.02em;
+}
+
+.founder-quote-author {
+  display: block;
+  margin-top: 14px;
+  padding-right: 120px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(180,150,255,0.6);
+}
+
+.founder-photo-br {
+  float: right;
+  margin: 0 0 0 18px;
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  width: 80px;
+  height: 80px;
+  opacity: 0.75;
+}
+
+/* ─── PHOTO GALLERY ──────────────────────────── */
+
+.gallery-header {
+  text-align: center;
+  margin: 48px 0 24px;
+}
+
+.gallery-header .subtitle {
+  margin-bottom: 6px;
+}
+
+.gallery-header h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #e8d8ff;
+  margin: 0;
+  text-shadow: 0 0 12px rgba(180,140,255,0.4);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.photo-frame {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(160,120,255,0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.photo-frame:hover {
+  border-color: rgba(160,120,255,0.45);
+  transform: translateY(-2px);
+}
+
+.photo-frame img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  opacity: 0.88;
+  transition: opacity 0.25s ease;
+}
+
+.photo-frame:hover img {
+  opacity: 1;
+}
+
+.photo-caption {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(200,170,255,0.55);
+  text-align: center;
+  padding: 10px 12px;
+  font-style: italic;
+}
+
+/* ─── WHAT PAGE ──────────────────────────────── */
+
+.what-intro {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.8;
+  color: rgba(232,216,255,0.88);
+  text-align: center;
+  max-width: 560px;
+  margin: 8px auto 40px;
+  text-shadow: 0 0 20px rgba(180,140,255,0.15);
+}
+
+.values-section h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: #d9c7ff;
+  margin: 0 0 20px;
+  text-shadow: 0 0 10px rgba(180,140,255,0.3);
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.values-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #e0d0ff;
+  padding: 14px 18px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(160,120,255,0.12);
+  transition: border-color 0.2s ease;
+}
+
+.values-list li:hover {
+  border-color: rgba(160,120,255,0.28);
+}
+
+.values-list li::before {
+  content: '✦ ';
+  font-size: 0.55rem;
+  color: rgba(200,160,255,0.5);
+  flex-shrink: 0;
+}
+
+/* ─── DREAMS SECTION ────────────────────────── */
+
+.dreams-intro {
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: rgba(230,210,255,0.8);
+  margin-bottom: 36px;
+  padding-left: 18px;
+  border-left: 1px solid rgba(160,120,255,0.3);
+}
+
+.dream-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.dream-card {
+  position: relative;
+  padding: 22px 22px 20px;
+  border: 1px solid rgba(143,115,255,0.18);
+  border-radius: 4px;
+  background: rgba(30,7,51,0.45);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.dream-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top left, rgba(143,115,255,0.07) 0%, transparent 65%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dream-card:hover { border-color: rgba(143,115,255,0.45); background: rgba(40,10,65,0.6); }
+.dream-card:hover::before { opacity: 1; }
+
+.dream-icon { font-size: 1.3rem; display: block; margin-bottom: 10px; opacity: 0.8; }
+
+.dream-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #e8d8ff;
+  letter-spacing: 0.03em;
+  margin-bottom: 7px;
+  display: block;
+}
+
+.dream-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: rgba(200,180,255,0.65);
+  margin: 0;
+}
+
+.dream-footer {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(180,150,255,0.35);
+  text-align: center;
+  margin-top: 24px;
+  font-style: italic;
+}
+
+/* ─── ECHO THREADS ───────────────────────────── */
+
+.echo-intro {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: rgba(230,210,255,0.8);
+  margin-bottom: 32px;
+}
+
+.echo-intro em { color: #e8d8ff; font-style: italic; }
+
+.thread-card {
+  position: relative;
+  padding: 28px 28px 24px 36px;
+  border: 1px solid rgba(143,115,255,0.2);
+  border-left: 2px solid rgba(180,140,255,0.5);
+  border-radius: 0 4px 4px 0;
+  background: rgba(25,5,45,0.5);
+  backdrop-filter: blur(8px);
+  margin-bottom: 14px;
+}
+
+.thread-card::after {
+  content: '';
+  position: absolute;
+  left: -1px; top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(200,160,255,0.8), rgba(120,80,200,0.3));
+  border-radius: 2px;
+}
+
+.thread-number {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(180,150,255,0.45);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.thread-prompt {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #e8d8ff;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(180,140,255,0.2);
+}
+
+.thread-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(200,175,255,0.6);
+  margin: 0;
+}
+
+.echo-policy {
+  margin-top: 28px;
+  padding: 20px 24px;
+  border: 1px solid rgba(143,115,255,0.15);
+  border-radius: 4px;
+  background: rgba(143,115,255,0.06);
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.echo-policy-icon { font-size: 1.2rem; opacity: 0.7; flex-shrink: 0; margin-top: 2px; }
+
+.echo-policy-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: rgba(200,180,255,0.65);
+  margin: 0;
+}
+
+.echo-policy-text strong { color: rgba(220,200,255,0.9); font-weight: 400; }
+
+.section-header { margin: 60px 0 28px; }
+
+.section-header .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(200,180,255,0.5);
+  margin-bottom: 8px;
+}
+
+.section-header h3 {
+  font-size: 1.9rem;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  margin: 0 0 16px;
+  color: #e8d8ff;
+  text-shadow: 0 0 12px rgba(180,140,255,0.4), 0 0 28px rgba(140,110,255,0.2);
+}
+
+.section-divider { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+.section-divider-line { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(160,120,255,0.4), transparent); }
+.section-divider-gem { color: rgba(200,160,255,0.5); font-size: 0.6rem; letter-spacing: 0.1em; }
+
+/* ─── WHEN & WHERE PAGE ──────────────────────── */
+
+#whenwhere {
+  text-align: center;
+}
+
+.when-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  max-width: 520px;
+  margin: 0 auto 14px;
+}
+
+.when-box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(180,140,255,0.28);
+  border-radius: 18px;
+  padding: 24px 20px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow:
+    0 0 20px rgba(140,110,255,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  transition: all 0.25s ease;
+}
+
+.when-box:hover {
+  border-color: rgba(180,140,255,0.5);
+  box-shadow:
+    0 0 28px rgba(140,110,255,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  transform: translateY(-2px);
+}
+
+.when-box-wide {
+  grid-column: 1 / -1;
+}
+
+.when-icon {
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 0 8px rgba(220,180,255,0.5));
+}
+
+.when-highlight {
+  display: block;
+  color: #f0c8ff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-shadow: 0 0 14px rgba(255,140,255,0.45);
+  margin-top: 4px;
+}
+
+.when-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(200,170,255,0.5);
+  margin-top: 4px;
+  display: block;
+}
+
+.when-box p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(230,210,255,0.8);
+  margin: 0;
+}
+
+/* ─── 18+ NOTICE ─────────────────────────────── */
+
+.age-notice {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px 24px;
+  margin: 28px 0;
+  border: 1px solid rgba(200,140,255,0.35);
+  border-radius: 12px;
+  background: rgba(143,80,255,0.08);
+  box-shadow: 0 0 18px rgba(180,100,255,0.1);
+}
+
+.age-notice-badge {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(220,180,255,0.9);
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+  text-shadow: 0 0 12px rgba(200,140,255,0.5);
+}
+
+.age-notice-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: rgba(210,185,255,0.8);
+  margin: 0;
+}
+
+.age-notice-text strong {
+  color: rgba(230,210,255,0.95);
+  font-weight: 400;
+}
+
+/* ─── WAYS TO HELP PAGE ──────────────────────── */
+
+.help-intro {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: rgba(230,210,255,0.8);
+  margin-bottom: 36px;
+}
+
+.help-needs {
+  margin: 0 0 12px;
+  padding: 8px 28px;
+  list-style: none;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(160,120,255,0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.help-needs::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top left, rgba(143,115,255,0.07) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.help-needs li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: rgba(220,200,255,0.8);
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(160,120,255,0.25);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.help-needs li:last-child {
+  border-bottom: none;
+}
+
+.help-needs li strong {
+  font-family: 'Cormorant Garamond', serif;
+  color: #e8d8ff;
+  font-weight: 600;
+  font-size: 1.15rem;
+  min-width: 150px;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.help-needs-bottom-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.help-needs-bottom-divider .section-divider-line {
+  background: linear-gradient(90deg, transparent, rgba(160,120,255,0.4));
+}
+
+.role-card {
+  position: relative;
+  padding: 28px 28px 24px;
+  border: 1px solid rgba(143,115,255,0.2);
+  border-radius: 4px;
+  background: rgba(25,5,45,0.5);
+  backdrop-filter: blur(8px);
+  margin-bottom: 16px;
+}
+
+.role-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top right, rgba(143,115,255,0.06) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.role-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e8d8ff;
+  letter-spacing: 0.03em;
+  margin: 0 0 6px;
+  text-shadow: 0 0 16px rgba(180,140,255,0.3);
+}
+
+.role-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(180,150,255,0.5);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.role-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(200,178,255,0.7);
+  margin: 0;
+}
+
+.help-money {
+  margin-top: 40px;
+  padding: 22px 26px;
+  border: 1px solid rgba(143,115,255,0.12);
+  border-radius: 4px;
+  background: rgba(143,115,255,0.04);
+}
+
+.help-money p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(200,178,255,0.6);
+  margin: 0;
+}
+
+.help-money p strong {
+  color: rgba(220,200,255,0.85);
+  font-weight: 400;
+}
+
+.help-cta {
+  display: inline-block;
+  margin-top: 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: rgba(200,170,255,0.7);
+  font-style: italic;
+}
+
+.help-cta a {
+  color: rgba(220,190,255,0.9);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ─── BOTTOM PANEL ───────────────────────────── */
+
+.bottom-panel {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 48px 28px 70px;
+  position: relative;
+}
+
+.bottom-panel::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 28px; right: 28px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(160,120,255,0.35), transparent);
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.panel-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(160,120,255,0.18);
+  border-radius: 18px;
+  padding: 28px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.25s ease;
+}
+
+.panel-card:hover {
+  border-color: rgba(160,120,255,0.35);
+}
+
+.panel-card::after {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 100px; height: 100px;
+  background: radial-gradient(circle, rgba(143,115,255,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.panel-card h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #d9c7ff;
+  margin: 0 0 6px;
+  text-shadow: 0 0 10px rgba(180,140,255,0.3);
+}
+
+.panel-card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(200,180,255,0.6);
+  margin: 0 0 20px;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(135deg, #7c5cdb 0%, #a06be0 100%);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 11px 22px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(143,115,255,0.3);
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(143,115,255,0.45);
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+/* ─── FOOTER ─────────────────────────────────── */
+
+.footer {
+  text-align: center;
+  position: relative;
+  padding-top: 32px;
+}
+
+.footer::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: rgba(160,120,255,0.3);
+  margin: 0 auto 20px;
+}
+
+.footer-brand {
+  font-size: 0.95rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(200,180,255,0.5);
+  margin-bottom: 6px;
+}
+
+.footer-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(160,130,220,0.35);
+}
+
+/* ─── RESPONSIVE ─────────────────────────────── */
+
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .brand {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .navbar button {
+    font-size: 0.72rem;
+    padding: 6px 14px;
+  }
+
+  .page-header h2 {
+    font-size: 2rem;
+  }
+
+  #about .intro-card {
+    padding: 24px 20px;
+  }
+
+  .when-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dream-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-grid {
+    gap: 8px;
+  }
+
+  .content {
+    padding: 36px 18px;
+  }
+
+  .bottom-panel {
+    padding: 40px 18px 60px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- nebula glow -->
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+
+  <!-- starfield -->
+  <div class="stars" id="stars"></div>
+
+  <!-- shooting stars -->
+  <div class="shooting-star" style="--dur:9s;  --delay:0s;  top:60px;  left:-220px; width:200px;"></div>
+  <div class="shooting-star" style="--dur:14s; --delay:4s;  top:180px; left:-180px; width:150px;"></div>
+  <div class="shooting-star" style="--dur:11s; --delay:8s;  top:30px;  left:-250px; width:240px;"></div>
+
+  <div class="site">
+
+    <nav class="navbar">
+      <div class="brand">Wayward Dreamers ☆</div>
+      <button class="active" onclick="showPage('about', this)">Who We Are</button>
+      <button onclick="showPage('what', this)">The Vibe</button>
+      <button onclick="showPage('whenwhere', this)">When &amp; Where</button>
+      <button onclick="showPage('help', this)">Ways to Help</button>
+    </nav>
+
+    <main class="content">
+
+      <!-- ─── ABOUT ─────────────────────────────── -->
+      <section id="about" class="page active">
+        <div class="page-header">
+          <div class="subtitle">A creativity haven</div>
+          <h2>Who We Are</h2>
+          <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <div class="intro-card">
+          <p>A whimsical community of artists, writers, musicians, and makers of any craft who want to create alongside others and support eachother.</p>
+          <p>No pressure or critique. Just shared space and whimsy for all.</p>
+        </div>
+
+        <div style="margin-bottom: 24px; padding: 18px 24px; border: 1px solid rgba(200,140,255,0.45); border-radius: 12px; background: rgba(143,80,255,0.08); box-shadow: 0 0 18px rgba(180,100,255,0.12);">
+          <div style="font-family:'Inter',sans-serif; font-size:0.68rem; font-weight:300; letter-spacing:0.2em; text-transform:uppercase; color:rgba(220,170,255,0.6); margin-bottom:10px;">First Meeting</div>
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-weight:400; color:#e8d8ff; letter-spacing:0.03em;">Sunday, June 21st &nbsp;·&nbsp; 2:00 – 4:00 PM</div>
+          <div style="font-family:'Inter',sans-serif; font-size:0.78rem; font-weight:300; color:rgba(200,170,255,0.55); margin-top:6px; letter-spacing:0.05em;">Location: Dandelion Teahouse & Apothecary</div>
+        </div>
+
+        <div class="tagline-row">
+          <span class="tag-pill">Vancouver, WA</span>
+          <span class="tag-pill">Any skill level</span>
+          <span class="tag-pill">Always free</span>
+          <span class="tag-pill">18+</span>
+        </div>
+
+        <div class="age-notice">
+          <span class="age-notice-badge">☽</span>
+          <p class="age-notice-text">Family-friendly events are something we genuinely want to build toward. For now, our meetups are adult spaces, not because we don't love the little ones, but because keeping them truly safe takes infrastructure and care we're still growing into. When we're ready to do it right, you'll know.</p>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="section-header">
+          <div class="subtitle">The creature behind the curtain</div>
+          <h3>Your Friendly Neighborhood Founder</h3>
+          <div class="section-divider">
+            <span class="section-divider-line"></span>
+            <span class="section-divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <div class="intro-card founder-card">
+          <img class="founder-photo" src="https://i.ibb.co/kVw3w6Cm/1000184330.jpg" alt="Founder photo">
+          <span class="founder-name">Azryn Rose <span style="font-family:'Inter',sans-serif; font-size:0.75rem; font-weight:300; letter-spacing:0.08em; color:rgba(180,150,255,0.45); font-style:normal;">They/All - Dreaming Against the Odds</span></span>
+          <p>Started by Azryn, a multidisciplinary artist working in digital and traditional painting, animation, and design with a curiosity that wanders into just about every medium.</p>
+          <div class="founder-quote-block">
+            <span class="founder-quote-mark">“</span>
+            <blockquote class="founder-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula sapien vel urna tincidunt, vel tristique nisi fermentum. Vivamus ut libero vel felis laoreet dignissim et at orci.</blockquote>
+            <span class="founder-quote-author">— Azryn Rose</span>
+            <img class="founder-photo founder-photo-br" src="https://i.ibb.co/jvcp98CT/1000184328.jpg" alt="Founder photo">
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── WHAT ──────────────────────────────── -->
+      <section id="what" class="page">
+        <div class="page-header">
+          <div class="subtitle">Bring what you love</div>
+          <h2>What Happens</h2>
+          <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <p class="what-intro">Bring whatever you're working on writing, drawing, music, crafts, a half-finished project, or something you haven't named yet. Or just bring yourself for the company.</p>
+
+        <p class="what-intro" style="font-size:1.1rem; color:rgba(220,200,255,0.75);">♫ <strong style="font-style:normal; color:#e8d8ff;">Musicians are very welcome</strong> just be mindful that we meet in shared public spaces. Please keep it headphones-friendly: bring sheet music, recordings, or anything you can listen to privately rather than acoustic instruments or speakers. The vibe stays cozy for everyone that way.</p>
+
+        <!-- GALLERY replace src values with your own image paths -->
+        <div class="gallery-header">
+          <div class="subtitle">From the table</div>
+          <h3>The Vibes</h3>
+        </div>
+        <div class="photo-grid">
+          <div class="photo-frame">
+            <img src="https://placehold.co/400x300/1e0733/c8a0ff?text=Coming+Soon" alt="Coming soon" loading="lazy">
+            <span class="photo-caption">coming soon</span>
+          </div>
+          <div class="photo-frame">
+            <img src="https://placehold.co/400x300/2b0a3d/c8a0ff?text=Coming+Soon" alt="Coming soon" loading="lazy">
+            <span class="photo-caption">coming soon</span>
+          </div>
+          <div class="photo-frame">
+            <img src="https://placehold.co/400x300/1e0733/c8a0ff?text=Coming+Soon" alt="Coming soon" loading="lazy">
+            <span class="photo-caption">coming soon</span>
+          </div>
+          <div class="photo-frame">
+            <img src="https://placehold.co/400x300/2b0a3d/c8a0ff?text=Coming+Soon" alt="Coming soon" loading="lazy">
+            <span class="photo-caption">coming soon</span>
+          </div>
+        </div>
+
+        <!-- ─── WHAT WE'RE DREAMING OF ─────────── -->
+        <div class="section-header">
+          <div class="subtitle">Dreams for the future</div>
+          <h3>The Dream Jar</h3>
+          <div class="section-divider">
+            <span class="section-divider-line"></span>
+            <span class="section-divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <p class="dreams-intro">Nothing here is a promise. Everything here is a dream and dreams need people to become real. The more of us there are, the more of this we get to build together.</p>
+
+        <div class="dream-grid">
+          <div class="dream-card">
+            <span class="dream-icon">☀︎</span>
+            <span class="dream-title">Creative Picnics</span>
+            <p class="dream-body">Somewhere green, something to make, music in the open air. Bring your work, bring a blanket, bring whoever needs a good afternoon.</p>
+          </div>
+          <div class="dream-card">
+            <span class="dream-icon">✦</span>
+            <span class="dream-title">Critique Nights</span>
+            <p class="dream-body">Bring something you want eyes on. We offer thoughts with care, not competition the goal is always to help the work become more itself.</p>
+          </div>
+          <div class="dream-card">
+            <span class="dream-icon">⇄</span>
+            <span class="dream-title">Skill &amp; Resource Swaps</span>
+            <p class="dream-body">Teach what you know, learn what you don't. Trade supplies, techniques, references the good stuff that usually stays in one person's notes.</p>
+          </div>
+          <div class="dream-card">
+            <span class="dream-icon">𓍊𓋼𓍊𓋼𓍊</span>
+            <span class="dream-title">Foraging &amp; Hikes</span>
+            <p class="dream-body">Wandering somewhere with no agenda except to see what the earth left out for us. Materials, inspiration, or just the walk itself.</p>
+          </div>
+          <div class="dream-card">
+            <span class="dream-icon">◎</span>
+            <span class="dream-title">Portfolio Nights</span>
+            <p class="dream-body">Organize, refine, figure out what to show and how to show it together. No one should have to sort through their own work alone.</p>
+          </div>
+          <div class="dream-card">
+            <span class="dream-icon">♔</span>
+            <span class="dream-title">Themed Potlucks</span>
+            <p class="dream-body">Creatively themed, communally fed. We haven't decided what comes first but we know it will be delicious and probably a little strange.</p>
+          </div>
+        </div>
+
+        <p class="dream-footer">More when the time is right ✦</p>
+
+        <!-- ─── ECHO THREADS ───────────────────── -->
+        <div class="section-header" style="margin-top: 72px;">
+          <div class="subtitle">No deadlines. No expiry.</div>
+          <h3>The Echo Threads</h3>
+          <div class="section-divider">
+            <span class="section-divider-line"></span>
+            <span class="section-divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <p class="echo-intro">Sometimes you need a place to start. The Echo Threads are optional creative prompts open invitations, not assignments. Bring your response whenever it's ready. <em>There is no late here.</em></p>
+
+        <div class="thread-card">
+          <span class="thread-number">Echo Thread № 001 Always Open</span>
+          <div class="thread-prompt">Introduce yourself using your preferred creative medium.</div>
+          <p class="thread-note">Doesn't matter what form it takes a painting, a poem, a song, a sculpture, a short film, a collage. Just let it say: this is me, and this is how I make things. Bring it whenever you're ready, whether that's your first meetup or your fifteenth.</p>
+        </div>
+
+        <div class="echo-policy">
+          <span class="echo-policy-icon">∞</span>
+          <p class="echo-policy-text"><strong>Echo Threads never close.</strong> Missed a meeting, missed a month, missed a year the thread is still open. New members can work on every prompt that's ever been posted, and old ones are always welcome to revisit. We're dreamers. It's what we do.</p>
+        </div>
+
+      </section>
+
+      <!-- ─── WHEN & WHERE ──────────────────────── -->
+      <section id="whenwhere" class="page">
+        <div class="page-header">
+          <div class="subtitle">Find your way to us</div>
+          <h2>When &amp; Where</h2>
+          <div class="divider">
+            <span class="divider-line" style="background:linear-gradient(90deg,transparent,rgba(160,120,255,0.5),transparent);"></span>
+            <span class="divider-gem">✦ ✦ ✦</span>
+            <span class="divider-line" style="background:linear-gradient(90deg,rgba(160,120,255,0.5),transparent);"></span>
+          </div>
+        </div>
+
+        <div class="when-grid">
+          <div class="when-box">
+            <span class="when-icon">☽</span>
+            <span class="when-sub">Cadence</span>
+            <span class="when-highlight">Every other Sunday</span>
+          </div>
+          <div class="when-box">
+            <span class="when-icon">✦</span>
+            <span class="when-sub">Time</span>
+            <span class="when-highlight">2:00 – 4:00 PM</span>
+          </div>
+          <div class="when-box when-box-wide">
+            <span class="when-icon">✧</span>
+            <span class="when-sub">Location</span>
+            <span class="when-highlight" style="font-size:1.1rem;">Vancouver, WA area</span>
+            <p style="margin-top:10px;">Exact location varies on accessibility + space. Details shared via the mailing list and Signal group.</p>
+          </div>
+        </div>
+
+        <div class="when-box when-box-wide" style="max-width:520px; margin:14px auto 0;">
+          <span class="when-icon">✉</span>
+          <p>No RSVP required just show up. If you'd like to give us a heads-up that you're coming, a quick message in the Signal group helps us plan the space. Either way, you're welcome.</p>
+        </div>
+
+        <div class="when-box when-box-wide" style="max-width:520px; margin:14px auto 0;">
+          <span class="when-icon">♿</span>
+          <p>If you have mobility or accessibility needs, reach out ahead of time and we'll do our best to make sure the space works for you.</p>
+        </div>
+      </section>
+
+      <!-- ─── WAYS TO HELP ─────────────────────── -->
+      <section id="help" class="page">
+        <div class="page-header">
+          <div class="subtitle">This runs on people</div>
+          <h2>Ways to Help</h2>
+          <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-gem">✦ ✦ ✦</span>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:60px 20px 80px;">
+          <div style="font-size:2rem; margin-bottom:24px; opacity:0.5; letter-spacing:0.08em;">✦ ✦ ✦</div>
+          <div style="font-family:'Cormorant Garamond',serif; font-size:2.2rem; font-weight:300; color:#e8d8ff; text-shadow:0 0 24px rgba(180,140,255,0.6); margin-bottom:16px; letter-spacing:0.06em;">Coming Soon</div>
+          <div style="font-family:'Inter',sans-serif; font-size:0.8rem; font-weight:300; letter-spacing:0.15em; text-transform:uppercase; color:rgba(200,170,255,0.5); line-height:2;">This page is still taking shape.<br>Check back as the community grows.</div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="bottom-panel">
+      <div class="panel-grid">
+
+        <div class="panel-card signup-section">
+          <h3>✉ Mailing List</h3>
+          <p>Get updates and location details before each meetup.</p>
+         <a class="button"
+  href="https://forms.gle/rEeNZbKh1vRDaRFa8"
+  target="_blank"
+  rel="noopener noreferrer">
+  Join the Mailing List
+</a>
+
+        </div>
+
+        <div class="panel-card signal-section">
+          <h3>◎ Signal Group</h3>
+          <p>Chat with the community between meetups. Ask questions, share work, stay connected.</p>
+          <a class="button"
+            href="https://signal.group/#CjQKIJSwwOjDf-GkogxChHlQ3CDJLF6GHzFlx8zX_BGj7W48EhBqLpI4mW5PQQS5v49xOLUb"
+            target="_blank">
+            Join Signal Group
+          </a>
+        </div>
+
+        <div class="panel-card">
+          <h3>✦ Get in Touch</h3>
+          <p>Inquiries, collaborations, sponsorships, or anything bigger than a group chat message.</p>
+          <span class="button" style="user-select:all; cursor:text; display:block; text-align:center; word-break:break-all; border-radius:16px;">waywardreamersco@gmail.com</span>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <div class="footer-brand">Wayward Dreamers</div>
+        <div class="footer-sub">A growing constellation of creatives</div>
+      </div>
+    </footer>
+
+  </div><!-- .site -->
+
+  <script>
+    function showPage(pageId, button) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+      document.querySelectorAll('.navbar button').forEach(b => b.classList.remove('active'));
+      button.classList.add('active');
+    }
+
+    // Generate starfield with size variation
+    const starsEl = document.getElementById('stars');
+    for (let i = 0; i < 160; i++) {
+      const s = document.createElement('div');
+      s.className = 'star';
+      const size = Math.random() < 0.15 ? 3 : Math.random() < 0.4 ? 2 : 1;
+      s.style.cssText = `
+        width:${size}px;
+        height:${size}px;
+        top:${Math.random() * 100}vh;
+        left:${Math.random() * 100}vw;
+        --dur:${2 + Math.random() * 4}s;
+        --delay:${Math.random() * 4}s;
+      `;
+      starsEl.appendChild(s);
+    }
+  </script>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a4c259fe789f480fb8c14c4c7b10ad5d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+
+</body>
+</html>
